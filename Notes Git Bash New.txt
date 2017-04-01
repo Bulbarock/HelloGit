@@ -1,0 +1,37 @@
+Notes Git Bash
+
+-- Create a folder in C:/AndroidProjects/Projects
+-- GIT Log: Para saber si el directorio esra inicializado con Git
+-- Git Init: Inizializar el repositorio
+-- Commint es una version
+-- Git Status
+-- Si se elimina la carpeta .git, se eleminan los commits.
+-- 4 areas : Localdirectory(solo el folder), stagging area(los cambios que quieres persistir, commit y pasar al local respository), 
+   local repository()
+-- Git Add . Pasa de local directory a stagging area
+-- Git commint -m "First commit"  Pasa de Stagging area a local repository
+
+--git config --global user.email ""
+--git config --global user.name "Your Name"
+
+--git checkout versionnumber// Cambiar de commit
+--$ git diff ddfa0069bb95fd7ec624a4cc69a84d75cefe6d57 811d92a4cbbb11556dc9da2b19d4356e10735a6b
+--git status -v, Ver diferecia de todos los archivos en stagging area.
+
+--Remote: 
+
+git remote add origin https://github.com/Bulbarock/HelloGit.git : Crea una concexion de mi local resporitory a otro en githubgit 
+git push -u origin master: origin es que repository quires enviar y el master es el branch de los archivoa a enviar.
+
+Add a new file
+$ git add .
+$ git commit -m "4th Commit"
+$ git push -u origin master
+
+
+--git brach -v: MOstar todo los bracnhes existenttes
+--git branch fingerprint
+--git branch -d remove name
+--git checkout branch name: apuntar a un alias
+
+
